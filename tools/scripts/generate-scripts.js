@@ -14,7 +14,7 @@ function generateAngularLibs() {
   libNames.forEach((libName) => generateAngularLib(libName));
 
   const selectors = libNames
-    .map((c) => `<happyorg-${c}-main></happyorg-${c}-main>`)
+    .map((c) => `<cache-video-${c}-main></cache-video-${c}-main>`)
     .join('\n');
   fs.writeFileSync(
     `apps/ng-app/src/app/app.component.html`,
@@ -28,7 +28,7 @@ function generateAngularLibs() {
   const imports = libNames
     .map(
       (libName) =>
-        `import { ${moduleName(libName)} } from '@happyorg/ng/${libName}';`
+        `import { ${moduleName(libName)} } from '@cache-video/ng/${libName}';`
     )
     .join('\n');
 
@@ -113,10 +113,10 @@ export class AppModule {}
         `libs/ng/${libName}/src/lib/${componentName}/${componentName}.component.ts`,
         `
         import { Component, OnInit } from '@angular/core';
-        import { SHARED_CONST } from '@happyorg/shared-utils';
+        import { SHARED_CONST } from '@cache-video/shared-utils';
 
         @Component({
-          selector: 'happyorg-${componentName}',
+          selector: 'cache-video-${componentName}',
           templateUrl: './${componentName}.component.html',
           styleUrls: ['./${componentName}.component.css']
         })
@@ -138,7 +138,7 @@ export class AppModule {}
     );
 
     const selectors = componentNames
-      .map((c) => `<happyorg-${c}></happyorg-${c}>`)
+      .map((c) => `<cache-video-${c}></cache-video-${c}>`)
       .join('\n');
 
     fs.writeFileSync(
@@ -196,7 +196,9 @@ function generateReactLibs() {
   libNames.forEach((libName) => generateReactLib(libName));
 
   const imports = libNames
-    .map((l) => `import { React${capitalize(l)} } from "@happyorg/react/${l}";`)
+    .map(
+      (l) => `import { React${capitalize(l)} } from "@cache-video/react/${l}";`
+    )
     .join('\n');
   const instantiations = libNames
     .map((l) => `<React${capitalize(l)}></React${capitalize(l)}>`)
@@ -249,7 +251,7 @@ export default App;`
         `libs/react/${libName}/src/lib/${componentName}.tsx`,
         `
         import React from 'react';
-        import { SHARED_CONST } from '@happyorg/shared-utils'; 
+        import { SHARED_CONST } from '@cache-video/shared-utils'; 
 
         import './${componentName}.css';
         
