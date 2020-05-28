@@ -188,6 +188,1686 @@
           }
         }
       }
+    },
+    "react1-lib0": {
+      "root": "libs/react1/lib0",
+      "sourceRoot": "libs/react1/lib0/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib0/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib0/tsconfig.lib.json",
+              "libs/react1/lib0/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib0/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib0/jest.config.js",
+            "tsConfig": "libs/react1/lib0/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib1": {
+      "root": "libs/react1/lib1",
+      "sourceRoot": "libs/react1/lib1/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib1/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib1/tsconfig.lib.json",
+              "libs/react1/lib1/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib1/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib1/jest.config.js",
+            "tsConfig": "libs/react1/lib1/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib2": {
+      "root": "libs/react1/lib2",
+      "sourceRoot": "libs/react1/lib2/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib2/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib2/tsconfig.lib.json",
+              "libs/react1/lib2/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib2/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib2/jest.config.js",
+            "tsConfig": "libs/react1/lib2/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib3": {
+      "root": "libs/react1/lib3",
+      "sourceRoot": "libs/react1/lib3/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib3/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib3/tsconfig.lib.json",
+              "libs/react1/lib3/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib3/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib3/jest.config.js",
+            "tsConfig": "libs/react1/lib3/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib4": {
+      "root": "libs/react1/lib4",
+      "sourceRoot": "libs/react1/lib4/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib4/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib4/tsconfig.lib.json",
+              "libs/react1/lib4/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib4/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib4/jest.config.js",
+            "tsConfig": "libs/react1/lib4/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib5": {
+      "root": "libs/react1/lib5",
+      "sourceRoot": "libs/react1/lib5/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib5/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib5/tsconfig.lib.json",
+              "libs/react1/lib5/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib5/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib5/jest.config.js",
+            "tsConfig": "libs/react1/lib5/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib6": {
+      "root": "libs/react1/lib6",
+      "sourceRoot": "libs/react1/lib6/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib6/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib6/tsconfig.lib.json",
+              "libs/react1/lib6/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib6/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib6/jest.config.js",
+            "tsConfig": "libs/react1/lib6/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib7": {
+      "root": "libs/react1/lib7",
+      "sourceRoot": "libs/react1/lib7/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib7/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib7/tsconfig.lib.json",
+              "libs/react1/lib7/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib7/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib7/jest.config.js",
+            "tsConfig": "libs/react1/lib7/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib8": {
+      "root": "libs/react1/lib8",
+      "sourceRoot": "libs/react1/lib8/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib8/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib8/tsconfig.lib.json",
+              "libs/react1/lib8/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib8/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib8/jest.config.js",
+            "tsConfig": "libs/react1/lib8/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib9": {
+      "root": "libs/react1/lib9",
+      "sourceRoot": "libs/react1/lib9/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib9/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib9/tsconfig.lib.json",
+              "libs/react1/lib9/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib9/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib9/jest.config.js",
+            "tsConfig": "libs/react1/lib9/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib10": {
+      "root": "libs/react1/lib10",
+      "sourceRoot": "libs/react1/lib10/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib10/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib10/tsconfig.lib.json",
+              "libs/react1/lib10/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib10/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib10/jest.config.js",
+            "tsConfig": "libs/react1/lib10/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib11": {
+      "root": "libs/react1/lib11",
+      "sourceRoot": "libs/react1/lib11/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib11/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib11/tsconfig.lib.json",
+              "libs/react1/lib11/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib11/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib11/jest.config.js",
+            "tsConfig": "libs/react1/lib11/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib12": {
+      "root": "libs/react1/lib12",
+      "sourceRoot": "libs/react1/lib12/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib12/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib12/tsconfig.lib.json",
+              "libs/react1/lib12/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib12/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib12/jest.config.js",
+            "tsConfig": "libs/react1/lib12/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib13": {
+      "root": "libs/react1/lib13",
+      "sourceRoot": "libs/react1/lib13/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib13/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib13/tsconfig.lib.json",
+              "libs/react1/lib13/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib13/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib13/jest.config.js",
+            "tsConfig": "libs/react1/lib13/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib14": {
+      "root": "libs/react1/lib14",
+      "sourceRoot": "libs/react1/lib14/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib14/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib14/tsconfig.lib.json",
+              "libs/react1/lib14/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib14/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib14/jest.config.js",
+            "tsConfig": "libs/react1/lib14/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib15": {
+      "root": "libs/react1/lib15",
+      "sourceRoot": "libs/react1/lib15/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib15/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib15/tsconfig.lib.json",
+              "libs/react1/lib15/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib15/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib15/jest.config.js",
+            "tsConfig": "libs/react1/lib15/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib16": {
+      "root": "libs/react1/lib16",
+      "sourceRoot": "libs/react1/lib16/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib16/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib16/tsconfig.lib.json",
+              "libs/react1/lib16/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib16/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib16/jest.config.js",
+            "tsConfig": "libs/react1/lib16/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib17": {
+      "root": "libs/react1/lib17",
+      "sourceRoot": "libs/react1/lib17/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib17/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib17/tsconfig.lib.json",
+              "libs/react1/lib17/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib17/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib17/jest.config.js",
+            "tsConfig": "libs/react1/lib17/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib18": {
+      "root": "libs/react1/lib18",
+      "sourceRoot": "libs/react1/lib18/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib18/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib18/tsconfig.lib.json",
+              "libs/react1/lib18/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib18/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib18/jest.config.js",
+            "tsConfig": "libs/react1/lib18/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib19": {
+      "root": "libs/react1/lib19",
+      "sourceRoot": "libs/react1/lib19/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib19/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib19/tsconfig.lib.json",
+              "libs/react1/lib19/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib19/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib19/jest.config.js",
+            "tsConfig": "libs/react1/lib19/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib20": {
+      "root": "libs/react1/lib20",
+      "sourceRoot": "libs/react1/lib20/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib20/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib20/tsconfig.lib.json",
+              "libs/react1/lib20/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib20/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib20/jest.config.js",
+            "tsConfig": "libs/react1/lib20/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib21": {
+      "root": "libs/react1/lib21",
+      "sourceRoot": "libs/react1/lib21/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib21/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib21/tsconfig.lib.json",
+              "libs/react1/lib21/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib21/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib21/jest.config.js",
+            "tsConfig": "libs/react1/lib21/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib22": {
+      "root": "libs/react1/lib22",
+      "sourceRoot": "libs/react1/lib22/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib22/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib22/tsconfig.lib.json",
+              "libs/react1/lib22/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib22/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib22/jest.config.js",
+            "tsConfig": "libs/react1/lib22/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib23": {
+      "root": "libs/react1/lib23",
+      "sourceRoot": "libs/react1/lib23/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib23/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib23/tsconfig.lib.json",
+              "libs/react1/lib23/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib23/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib23/jest.config.js",
+            "tsConfig": "libs/react1/lib23/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib24": {
+      "root": "libs/react1/lib24",
+      "sourceRoot": "libs/react1/lib24/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib24/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib24/tsconfig.lib.json",
+              "libs/react1/lib24/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib24/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib24/jest.config.js",
+            "tsConfig": "libs/react1/lib24/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib25": {
+      "root": "libs/react1/lib25",
+      "sourceRoot": "libs/react1/lib25/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib25/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib25/tsconfig.lib.json",
+              "libs/react1/lib25/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib25/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib25/jest.config.js",
+            "tsConfig": "libs/react1/lib25/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib26": {
+      "root": "libs/react1/lib26",
+      "sourceRoot": "libs/react1/lib26/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib26/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib26/tsconfig.lib.json",
+              "libs/react1/lib26/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib26/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib26/jest.config.js",
+            "tsConfig": "libs/react1/lib26/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib27": {
+      "root": "libs/react1/lib27",
+      "sourceRoot": "libs/react1/lib27/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib27/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib27/tsconfig.lib.json",
+              "libs/react1/lib27/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib27/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib27/jest.config.js",
+            "tsConfig": "libs/react1/lib27/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib28": {
+      "root": "libs/react1/lib28",
+      "sourceRoot": "libs/react1/lib28/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib28/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib28/tsconfig.lib.json",
+              "libs/react1/lib28/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib28/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib28/jest.config.js",
+            "tsConfig": "libs/react1/lib28/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react1-lib29": {
+      "root": "libs/react1/lib29",
+      "sourceRoot": "libs/react1/lib29/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react1/lib29/.eslintrc",
+            "tsConfig": [
+              "libs/react1/lib29/tsconfig.lib.json",
+              "libs/react1/lib29/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react1/lib29/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react1/lib29/jest.config.js",
+            "tsConfig": "libs/react1/lib29/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib0": {
+      "root": "libs/react2/lib0",
+      "sourceRoot": "libs/react2/lib0/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib0/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib0/tsconfig.lib.json",
+              "libs/react2/lib0/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib0/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib0/jest.config.js",
+            "tsConfig": "libs/react2/lib0/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib1": {
+      "root": "libs/react2/lib1",
+      "sourceRoot": "libs/react2/lib1/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib1/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib1/tsconfig.lib.json",
+              "libs/react2/lib1/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib1/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib1/jest.config.js",
+            "tsConfig": "libs/react2/lib1/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib2": {
+      "root": "libs/react2/lib2",
+      "sourceRoot": "libs/react2/lib2/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib2/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib2/tsconfig.lib.json",
+              "libs/react2/lib2/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib2/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib2/jest.config.js",
+            "tsConfig": "libs/react2/lib2/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib3": {
+      "root": "libs/react2/lib3",
+      "sourceRoot": "libs/react2/lib3/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib3/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib3/tsconfig.lib.json",
+              "libs/react2/lib3/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib3/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib3/jest.config.js",
+            "tsConfig": "libs/react2/lib3/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib4": {
+      "root": "libs/react2/lib4",
+      "sourceRoot": "libs/react2/lib4/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib4/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib4/tsconfig.lib.json",
+              "libs/react2/lib4/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib4/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib4/jest.config.js",
+            "tsConfig": "libs/react2/lib4/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib5": {
+      "root": "libs/react2/lib5",
+      "sourceRoot": "libs/react2/lib5/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib5/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib5/tsconfig.lib.json",
+              "libs/react2/lib5/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib5/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib5/jest.config.js",
+            "tsConfig": "libs/react2/lib5/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib6": {
+      "root": "libs/react2/lib6",
+      "sourceRoot": "libs/react2/lib6/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib6/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib6/tsconfig.lib.json",
+              "libs/react2/lib6/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib6/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib6/jest.config.js",
+            "tsConfig": "libs/react2/lib6/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib7": {
+      "root": "libs/react2/lib7",
+      "sourceRoot": "libs/react2/lib7/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib7/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib7/tsconfig.lib.json",
+              "libs/react2/lib7/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib7/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib7/jest.config.js",
+            "tsConfig": "libs/react2/lib7/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib8": {
+      "root": "libs/react2/lib8",
+      "sourceRoot": "libs/react2/lib8/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib8/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib8/tsconfig.lib.json",
+              "libs/react2/lib8/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib8/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib8/jest.config.js",
+            "tsConfig": "libs/react2/lib8/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib9": {
+      "root": "libs/react2/lib9",
+      "sourceRoot": "libs/react2/lib9/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib9/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib9/tsconfig.lib.json",
+              "libs/react2/lib9/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib9/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib9/jest.config.js",
+            "tsConfig": "libs/react2/lib9/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib10": {
+      "root": "libs/react2/lib10",
+      "sourceRoot": "libs/react2/lib10/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib10/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib10/tsconfig.lib.json",
+              "libs/react2/lib10/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib10/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib10/jest.config.js",
+            "tsConfig": "libs/react2/lib10/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib11": {
+      "root": "libs/react2/lib11",
+      "sourceRoot": "libs/react2/lib11/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib11/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib11/tsconfig.lib.json",
+              "libs/react2/lib11/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib11/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib11/jest.config.js",
+            "tsConfig": "libs/react2/lib11/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib12": {
+      "root": "libs/react2/lib12",
+      "sourceRoot": "libs/react2/lib12/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib12/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib12/tsconfig.lib.json",
+              "libs/react2/lib12/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib12/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib12/jest.config.js",
+            "tsConfig": "libs/react2/lib12/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib13": {
+      "root": "libs/react2/lib13",
+      "sourceRoot": "libs/react2/lib13/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib13/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib13/tsconfig.lib.json",
+              "libs/react2/lib13/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib13/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib13/jest.config.js",
+            "tsConfig": "libs/react2/lib13/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib14": {
+      "root": "libs/react2/lib14",
+      "sourceRoot": "libs/react2/lib14/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib14/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib14/tsconfig.lib.json",
+              "libs/react2/lib14/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib14/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib14/jest.config.js",
+            "tsConfig": "libs/react2/lib14/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib15": {
+      "root": "libs/react2/lib15",
+      "sourceRoot": "libs/react2/lib15/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib15/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib15/tsconfig.lib.json",
+              "libs/react2/lib15/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib15/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib15/jest.config.js",
+            "tsConfig": "libs/react2/lib15/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib16": {
+      "root": "libs/react2/lib16",
+      "sourceRoot": "libs/react2/lib16/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib16/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib16/tsconfig.lib.json",
+              "libs/react2/lib16/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib16/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib16/jest.config.js",
+            "tsConfig": "libs/react2/lib16/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib17": {
+      "root": "libs/react2/lib17",
+      "sourceRoot": "libs/react2/lib17/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib17/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib17/tsconfig.lib.json",
+              "libs/react2/lib17/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib17/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib17/jest.config.js",
+            "tsConfig": "libs/react2/lib17/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib18": {
+      "root": "libs/react2/lib18",
+      "sourceRoot": "libs/react2/lib18/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib18/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib18/tsconfig.lib.json",
+              "libs/react2/lib18/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib18/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib18/jest.config.js",
+            "tsConfig": "libs/react2/lib18/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib19": {
+      "root": "libs/react2/lib19",
+      "sourceRoot": "libs/react2/lib19/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib19/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib19/tsconfig.lib.json",
+              "libs/react2/lib19/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib19/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib19/jest.config.js",
+            "tsConfig": "libs/react2/lib19/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib20": {
+      "root": "libs/react2/lib20",
+      "sourceRoot": "libs/react2/lib20/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib20/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib20/tsconfig.lib.json",
+              "libs/react2/lib20/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib20/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib20/jest.config.js",
+            "tsConfig": "libs/react2/lib20/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib21": {
+      "root": "libs/react2/lib21",
+      "sourceRoot": "libs/react2/lib21/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib21/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib21/tsconfig.lib.json",
+              "libs/react2/lib21/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib21/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib21/jest.config.js",
+            "tsConfig": "libs/react2/lib21/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib22": {
+      "root": "libs/react2/lib22",
+      "sourceRoot": "libs/react2/lib22/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib22/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib22/tsconfig.lib.json",
+              "libs/react2/lib22/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib22/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib22/jest.config.js",
+            "tsConfig": "libs/react2/lib22/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib23": {
+      "root": "libs/react2/lib23",
+      "sourceRoot": "libs/react2/lib23/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib23/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib23/tsconfig.lib.json",
+              "libs/react2/lib23/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib23/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib23/jest.config.js",
+            "tsConfig": "libs/react2/lib23/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib24": {
+      "root": "libs/react2/lib24",
+      "sourceRoot": "libs/react2/lib24/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib24/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib24/tsconfig.lib.json",
+              "libs/react2/lib24/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib24/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib24/jest.config.js",
+            "tsConfig": "libs/react2/lib24/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib25": {
+      "root": "libs/react2/lib25",
+      "sourceRoot": "libs/react2/lib25/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib25/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib25/tsconfig.lib.json",
+              "libs/react2/lib25/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib25/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib25/jest.config.js",
+            "tsConfig": "libs/react2/lib25/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib26": {
+      "root": "libs/react2/lib26",
+      "sourceRoot": "libs/react2/lib26/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib26/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib26/tsconfig.lib.json",
+              "libs/react2/lib26/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib26/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib26/jest.config.js",
+            "tsConfig": "libs/react2/lib26/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib27": {
+      "root": "libs/react2/lib27",
+      "sourceRoot": "libs/react2/lib27/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib27/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib27/tsconfig.lib.json",
+              "libs/react2/lib27/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib27/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib27/jest.config.js",
+            "tsConfig": "libs/react2/lib27/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib28": {
+      "root": "libs/react2/lib28",
+      "sourceRoot": "libs/react2/lib28/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib28/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib28/tsconfig.lib.json",
+              "libs/react2/lib28/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib28/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib28/jest.config.js",
+            "tsConfig": "libs/react2/lib28/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "react2-lib29": {
+      "root": "libs/react2/lib29",
+      "sourceRoot": "libs/react2/lib29/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/react2/lib29/.eslintrc",
+            "tsConfig": [
+              "libs/react2/lib29/tsconfig.lib.json",
+              "libs/react2/lib29/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/react2/lib29/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/react2/lib29/jest.config.js",
+            "tsConfig": "libs/react2/lib29/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
     }
   },
   "cli": {
