@@ -32,6 +32,9 @@
     "ng-app-e2e": {
       "tags": [],
       "implicitDependencies": ["ng-app"]
+    },
+    "shared-utils": {
+      "tags": []
     }
   }
 }

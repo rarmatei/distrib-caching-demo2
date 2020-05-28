@@ -15,7 +15,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@cache-video/shared-utils": ["libs/shared-utils/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

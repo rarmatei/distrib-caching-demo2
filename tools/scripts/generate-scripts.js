@@ -1,8 +1,8 @@
 const cp = require('child_process');
 const fs = require('fs');
 
-const NUMBER_OF_LIBS = 10;
-const NUMBER_OF_COMPONENTS = 10;
+const NUMBER_OF_LIBS = 1;
+const NUMBER_OF_COMPONENTS = 1;
 
 function generateAngularLibs() {
   const libNames = [];
@@ -234,7 +234,7 @@ export default App;`
 
       const componentClass = componentClassName(componentName);
       fs.writeFileSync(
-        `libs/react/${libName}/src/lib/${componentName}.spec.tsx`,
+        `libs/react/${libName}/src/lib/${componentName}/${componentName}.spec.tsx`,
         `
         import React from 'react';
         import { render } from '@testing-library/react';
@@ -248,7 +248,7 @@ export default App;`
       );
 
       fs.writeFileSync(
-        `libs/react/${libName}/src/lib/${componentName}.tsx`,
+        `libs/react/${libName}/src/lib/${componentName}/${componentName}.tsx`,
         `
         import React from 'react';
         import { SHARED_CONST } from '@cache-video/shared-utils'; 
@@ -272,7 +272,7 @@ export default App;`
     const componentImports = componentNames
       .map((c) => {
         const cc = componentClassName(c);
-        return `import {${cc}} from './${c}';`;
+        return `import {${cc}} from './${c}/${c}';`;
       })
       .join('\n');
     const componentInstantiations = componentNames
@@ -324,5 +324,5 @@ export default App;`
   }
 }
 
-generateAngularLibs();
+// generateAngularLibs();
 generateReactLibs();
