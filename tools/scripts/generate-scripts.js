@@ -1,10 +1,10 @@
 const cp = require('child_process');
 const fs = require('fs');
 
-const NUMBER_OF_LIBS = 15;
-const NUMBER_OF_COMPONENTS = 20;
+const NUMBER_OF_LIBS = 2;
+const NUMBER_OF_COMPONENTS = 2;
 
-function generateReactLibs(appName) {
+function generateReactLibs(suffix) {
   const libNames = [];
 
   for (let i = 0; i < NUMBER_OF_LIBS; ++i) {
@@ -23,7 +23,7 @@ function generateReactLibs(appName) {
     .join('\n');
 
   fs.writeFileSync(
-    `apps/${appName}/src/app/app.tsx`,
+    `apps/react-app${suffix}/src/app/app.tsx`,
     `import React from 'react';
 ${imports}
 
@@ -37,7 +37,8 @@ export default App;`
   );
 
   function generateReactLib(libName) {
-    cp.execSync(`nx g @nrwl/react:lib ${libName} --directory=react`);
+    const folderName = `react${suffix}`;
+    cp.execSync(`nx g @nrwl/react:lib ${libName} --directory=${folderName}`);
 
     const componentNames = [];
 
@@ -47,12 +48,12 @@ export default App;`
 
     componentNames.forEach((componentName) => {
       cp.execSync(
-        `nx g @nrwl/react:component ${componentName}  --project=react-${libName}`
+        `nx g @nrwl/react:component ${componentName}  --project=${folderName}-${libName}`
       );
 
       const componentClass = componentClassName(componentName);
       fs.writeFileSync(
-        `libs/react/${libName}/src/lib/${componentName}/${componentName}.spec.tsx`,
+        `libs/${folderName}/${libName}/src/lib/${componentName}/${componentName}.spec.tsx`,
         `
         import React from 'react';
         import { render } from '@testing-library/react';
@@ -66,7 +67,7 @@ export default App;`
       );
 
       fs.writeFileSync(
-        `libs/react/${libName}/src/lib/${componentName}/${componentName}.tsx`,
+        `libs/${folderName}/${libName}/src/lib/${componentName}/${componentName}.tsx`,
         `
         import React from 'react';
         import { SHARED_CONST } from '@cache-video/shared-utils'; 
@@ -100,7 +101,7 @@ export default App;`
       })
       .join('\n');
     fs.writeFileSync(
-      `libs/react/${libName}/src/lib/react-${libName}.tsx`,
+      `libs/${folderName}/${libName}/src/lib/react-${libName}.tsx`,
       `
     import React from 'react';
     ${componentImports}
@@ -142,5 +143,5 @@ export default App;`
   }
 }
 
-generateReactLibs('react-app1');
-generateReactLibs('react-app2');
+generateReactLibs('1');
+generateReactLibs('2');
