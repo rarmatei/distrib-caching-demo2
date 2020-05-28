@@ -1,8 +1,8 @@
 const cp = require('child_process');
 const fs = require('fs');
 
-const NUMBER_OF_LIBS = 1;
-const NUMBER_OF_COMPONENTS = 1;
+const NUMBER_OF_LIBS = 10;
+const NUMBER_OF_COMPONENTS = 10;
 
 function generateAngularLibs() {
   const libNames = [];
@@ -324,5 +324,5 @@ export default App;`
   }
 }
 
-// generateAngularLibs();
+generateAngularLibs();
 generateReactLibs();
