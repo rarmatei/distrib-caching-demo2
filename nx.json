@@ -19,9 +19,6 @@
     }
   },
   "projects": {
-    "react-app": {
-      "tags": []
-    },
     "react-app-e2e": {
       "tags": [],
       "implicitDependencies": ["react-app"]
@@ -35,6 +32,16 @@
     },
     "shared-utils": {
       "tags": []
+    },
+    "react-app1": {
+      "tags": []
+    },
+    "react-app2": {
+      "tags": []
+    },
+    "react-app2-e2e": {
+      "tags": [],
+      "implicitDependencies": ["react-app2"]
     }
   }
 }
