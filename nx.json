@@ -25,6 +25,13 @@
     "react-app-e2e": {
       "tags": [],
       "implicitDependencies": ["react-app"]
+    },
+    "ng-app": {
+      "tags": []
+    },
+    "ng-app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["ng-app"]
     }
   }
 }
