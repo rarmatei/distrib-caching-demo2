@@ -1,8 +1,8 @@
 const cp = require('child_process');
 const fs = require('fs');
 
-const NUMBER_OF_LIBS = 2;
-const NUMBER_OF_COMPONENTS = 2;
+const NUMBER_OF_LIBS = 30;
+const NUMBER_OF_COMPONENTS = 30;
 
 function generateReactLibs(suffix) {
   const libNames = [];
@@ -15,7 +15,10 @@ function generateReactLibs(suffix) {
 
   const imports = libNames
     .map(
-      (l) => `import { React${capitalize(l)} } from "@cache-video/react/${l}";`
+      (l) =>
+        `import { React${capitalize(
+          l
+        )} } from "@cache-video/react${suffix}/${l}";`
     )
     .join('\n');
   const instantiations = libNames
@@ -101,7 +104,7 @@ export default App;`
       })
       .join('\n');
     fs.writeFileSync(
-      `libs/${folderName}/${libName}/src/lib/react-${libName}.tsx`,
+      `libs/${folderName}/${libName}/src/lib/react${suffix}-${libName}.tsx`,
       `
     import React from 'react';
     ${componentImports}
