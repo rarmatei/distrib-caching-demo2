@@ -19,17 +19,6 @@
     }
   },
   "projects": {
-    "react-app-e2e": {
-      "tags": [],
-      "implicitDependencies": ["react-app"]
-    },
-    "ng-app": {
-      "tags": []
-    },
-    "ng-app-e2e": {
-      "tags": [],
-      "implicitDependencies": ["ng-app"]
-    },
     "shared-utils": {
       "tags": []
     },
@@ -38,10 +27,6 @@
     },
     "react-app2": {
       "tags": []
-    },
-    "react-app2-e2e": {
-      "tags": [],
-      "implicitDependencies": ["react-app2"]
     }
   }
 }
